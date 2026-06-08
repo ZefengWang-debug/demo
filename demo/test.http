@@ -1,0 +1,37 @@
+### 新增用户
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{
+  "username": "tom",
+  "password": "123456",
+  "name": "Tom",
+  "email": "tom@test.com"
+}
+
+### 查询用户
+GET http://localhost:8080/user/list
+
+### 新增客服
+POST http://localhost:8080/customer/add
+Content-Type: application/json
+
+{
+  "name": "客服A",
+  "status": "NORMAL"
+}
+
+### 查询客服
+GET http://localhost:8080/customer/list
+
+### 创建会话
+POST http://localhost:8080/session/create?userId=1&customerId=1
+
+### 查询会话
+GET http://localhost:8080/session/list
+
+### HTTP保存消息
+POST http://localhost:8080/message/send?sessionId=1&senderId=1&senderType=USER&content=hello-http
+
+### 查询会话消息
+GET http://localhost:8080/message/list/1
