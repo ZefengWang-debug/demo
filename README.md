@@ -7,10 +7,10 @@
 [Spring Web](https://docs.spring.io/spring-boot/4.0.6/reference/web/servlet.html)
 
 # Guides
-```[Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-```[Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-```[Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-```[Apache Shiro](https://shiro.apache.org/index.html)
+[Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+[Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+[Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+[Apache Shiro](https://shiro.apache.org/index.html)
 
 # 本版本做了什么
 
