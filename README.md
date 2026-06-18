@@ -12,13 +12,27 @@
 [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 [Apache Shiro](https://shiro.apache.org/index.html)
 
+
+
+## 功能
+本周主要做用户、角色、权限相关接口。
+用户增删改查
+角色增删改查
+权限增删改查
+用户绑定角色
+角色绑定权限
+Shiro 登录和权限判断
+
+## 主要表
+sys_user
+sys_role
+sys_permission
+sys_user_role
+sys_role_permission
+
 # 本版本做了什么
 
 Spring Boot + MySQL 项目，新增：
-用户模块 User
-客服模块 Customer
-会话模块 ChatSession
-消息持久化模块 ChatMessage
 简化版 Netty TCP 通信
 调研并接入 Apache Shiro，用于后续登录认证和权限控制
 完成用户管理 CRUD：新增、查询、修改、删除
