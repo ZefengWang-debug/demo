@@ -30,6 +30,8 @@ sys_role
 sys_permission
 sys_user_role
 sys_role_permission
+chat_session
+chat_message
 
 # 本版本做了什么
 
@@ -54,6 +56,11 @@ Netty 4.1.x
 ```powershell
 docker start mysql8
 docker ps
+```
+再运行：
+
+```
+DemoApplication.java
 ```
 
 如果没有 mysql8，则创建：
