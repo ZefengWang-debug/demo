@@ -1,0 +1,29 @@
+### 新增用户
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{"username":"admin","password":"123456","name":"管理员","email":"admin@test.com"}
+
+### 新增角色
+POST http://localhost:8080/role/add
+Content-Type: application/json
+
+{"roleName":"管理员","roleCode":"admin","remark":"后台管理"}
+
+### 新增权限
+POST http://localhost:8080/permission/add
+Content-Type: application/json
+
+{"permissionName":"消息查询","permissionCode":"message:list","remark":"查询消息"}
+
+### 用户绑定角色
+POST http://localhost:8080/auth-relation/user-role?userId=1&roleId=1
+
+### 角色绑定权限
+POST http://localhost:8080/auth-relation/role-permission?roleId=1&permissionId=1
+
+### 查询用户权限
+GET http://localhost:8080/auth-relation/user/1/permission-codes
+
+### 检查用户权限
+GET http://localhost:8080/auth-relation/user/1/check?permissionCode=message:list
